@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(123, 255, 0);
+}
+
+form {
+    margin-top: 100px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+form>input {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 10px;
+    outline: none;
+}
+
+form>button {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    color: red;
+    cursor: pointer;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper>h1 {
+    color: red;
+}
